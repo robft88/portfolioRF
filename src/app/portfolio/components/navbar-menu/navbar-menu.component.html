@@ -1,0 +1,16 @@
+<ng-container *ngIf="load">
+    <mat-nav-list class="nav-menu-list">
+        <ng-container *ngFor="let item of navbar.listLinks">
+            <a [href]="item.link" mat-list-item>
+                <mat-icon mat-list-icon>{{item.icon}}</mat-icon>
+                <span>{{item.title | titlecase}}</span>
+            </a>
+        </ng-container>
+        <div mat-list-item>
+            <a [href]="navbar.resume.link" rel="noreferrer noopener" target="_blank" mat-stroked-button color="accent">
+                <mat-icon mat-list-icon>{{navbar.resume.icon}}</mat-icon>
+                <span>{{navbar.resume.title | titlecase}}</span>
+            </a>
+        </div>
+    </mat-nav-list>
+</ng-container>

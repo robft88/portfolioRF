@@ -1,0 +1,17 @@
+<ng-container *ngIf="load">
+    <mat-nav-list>
+        <ng-container *ngFor="let item of sidebar.listLinks">
+            <a [href]="item.link" mat-list-item (click)="sidenav.toggle()">
+                <mat-icon mat-list-icon>{{item.icon}}</mat-icon>
+                <span>{{item.title | titlecase}}</span>
+            </a>
+        </ng-container>
+        <div mat-list-item>
+            <a [href]="sidebar.resume.link" target="_blank" rel="noreferrer noopener" mat-stroked-button color="accent"
+                (click)="sidenav.toggle()">
+                <mat-icon mat-list-icon>{{sidebar.resume.icon}}</mat-icon>
+                <span>{{sidebar.resume.title | titlecase}}</span>
+            </a>
+        </div>
+    </mat-nav-list>
+</ng-container>

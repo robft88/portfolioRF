@@ -1,0 +1,33 @@
+<ng-container *ngIf="load">
+    <h2 class="wrapper__section-title">{{about.title}}</h2>
+    <div class="features">
+        <section class="about-resume">
+            <h5>{{about.titleDescription}}</h5>
+            <p>{{about.description}}</p>
+        </section>
+        <section class="about-what">
+            <div *ngFor="let what of about.what">
+                <i class="{{what.icon}}"></i>
+                <h5 class="font-title py-3">{{what.title}}</h5>
+                <p class="py-2">{{what.description}}</p>
+            </div>
+        </section>
+        <section class="about-tech">
+            <h5>{{about.titleTech}}</h5>
+            <ul class="tech-list">
+                <li class="btn" *ngFor="let tech of about.tech">
+                    <span class="btn__textWrapper">
+                        <span class="{{tech.icon}}" aria-hidden="true"> </span>
+                        <span class="btn__text">{{tech.name}}</span>
+                    </span>
+                </li>
+            </ul>
+        </section>
+        <section class="about-tools">
+            <h5>{{about.titleTools}}</h5>
+            <ul class="tools-list">
+                <li *ngFor="let tool of about.tools">{{tool}}</li>
+            </ul>
+        </section>
+    </div>
+</ng-container>

@@ -1,0 +1,26 @@
+<ng-container *ngIf="load">
+    <div class="panel__image" style="background-image: url('assets/images/{{project.id}}.jpg')">
+    </div>
+    <h4 class="panel__title">{{project.name}}</h4>
+    <figcaption class="project__content">
+        <ul class="project__tech">
+            <li *ngFor="let tool of project.tools">{{tool}}</li>
+        </ul>
+        <div class="project__details">
+            <p>{{project.description}}</p>
+        </div>
+        <div class="project__bottom">
+            <h4 class="project__title">{{project.name}}</h4>
+            <div class="project__btns">
+                <a target="_blank" rel="noreferrer noopener" href="{{project.link}}" class="button button-icon">
+                    <span class="rf rf-link-l rf-15x"></span>
+                    <span class="tooltip">View page</span>
+                </a>
+                <a target="_blank" rel="noreferrer noopener" href="{{project.github}}" class="button button-icon">
+                    <span class="rf rf-github rf-15x"></span>
+                    <span class="tooltip">GitHub</span>
+                </a>
+            </div>
+        </div>
+    </figcaption>
+</ng-container>

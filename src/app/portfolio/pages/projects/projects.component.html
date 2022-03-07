@@ -1,0 +1,9 @@
+<ng-container *ngIf="load">
+    <h2>{{projects.title}}</h2>
+    <div class="container">
+        <ng-container *ngFor="let project of projects.projects; let i = index">
+            <app-card-project [project]="project" class="panel" [ngClass]="{active: active === (i+1)}"
+                (click)="onClick(i+1)"></app-card-project>
+        </ng-container>
+    </div>
+</ng-container>

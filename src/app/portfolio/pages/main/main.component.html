@@ -1,0 +1,33 @@
+<mat-sidenav-container fullscreen [hasBackdrop]="true">
+    <mat-sidenav #sidenav mode="over">
+        <app-sidebar-menu [sidenav]="sidenav"></app-sidebar-menu>
+        <button mat-fab color="accent" class="btn-menu" (click)="sidenav.toggle()">
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-sidenav>
+    <mat-sidenav-content>
+
+        <mat-toolbar>
+            <div class="lang">
+                <span (click)="toCheck('esp')" id="esp">ES</span>
+                <input [(ngModel)]="isChecked" (change)="checkValue(isChecked?'eng':'esp')" type="checkbox" id="cbx2"
+                    style="display:none" />
+                <label for="cbx2" class="toggle"><span></span></label>
+                <span (click)="toCheck('eng')" id="eng">EN</span>
+            </div>
+            <app-navbar-menu class="nav-bar"></app-navbar-menu>
+
+            <button mat-fab color="accent" class="btn-menu" (click)="sidenav.toggle()">
+                <mat-icon>menu</mat-icon>
+            </button>
+        </mat-toolbar>
+
+        <div id="wrapper" class="main">
+            <app-home id="home" class="wrapper wrapper-home"></app-home>
+            <app-projects id="projects" class="wrapper wrapper-projects"></app-projects>
+            <app-about id="about" class="wrapper wrapper-about"></app-about>
+            <app-contact id="contact" class="wrapper wrapper-contact"></app-contact>
+        </div>
+        <app-footer id="footer" class="wrapper-footer"></app-footer>
+    </mat-sidenav-content>
+</mat-sidenav-container>

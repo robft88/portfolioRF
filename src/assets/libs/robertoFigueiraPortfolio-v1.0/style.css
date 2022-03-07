@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "robertoFigueiraPortfolio";
+  src: url("fonts/robertoFigueiraPortfolio.ttf?1bp5rh") format("truetype"),
+    url("fonts/robertoFigueiraPortfolio.woff?1bp5rh") format("woff"),
+    url("fonts/robertoFigueiraPortfolio.svg?1bp5rh#robertoFigueiraPortfolio")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.rf {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "robertoFigueiraPortfolio" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  position: relative;
+  margin: 0 auto;
+  top: 0;
+  line-height: 1; 
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rf-code-l:before {
+  content: "\e900";
+}
+.rf-code-r:before {
+  content: "\e901";
+}
+.rf-download-l:before {
+  content: "\e902";
+}
+.rf-download-r:before {
+  content: "\e903";
+}
+.rf-download-s:before {
+  content: "\e904";
+}
+.rf-email-l:before {
+  content: "\e905";
+}
+.rf-email-r:before {
+  content: "\e906";
+}
+.rf-email-s:before {
+  content: "\e907";
+}
+.rf-file-download-l:before {
+  content: "\e941";
+}
+.rf-file-download-r:before {
+  content: "\e942";
+}
+.rf-file-download-s:before {
+  content: "\e943";
+}
+.rf-home-l:before {
+  content: "\e944";
+}
+.rf-home-r:before {
+  content: "\e945";
+}
+.rf-home-s:before {
+  content: "\e946";
+}
+.rf-link-l:before {
+  content: "\e947";
+}
+.rf-link-r:before {
+  content: "\e948";
+}
+.rf-paperclip:before {
+  content: "\e949";
+}
+.rf-squares:before {
+  content: "\e94a";
+}
+.rf-tools-l:before {
+  content: "\e94b";
+}
+.rf-tools-r:before {
+  content: "\e94c";
+}
+.rf-tools-s:before {
+  content: "\e94d";
+}
+.rf-user-l:before {
+  content: "\e94e";
+}
+.rf-user-r:before {
+  content: "\e94f";
+}
+.rf-user-s:before {
+  content: "\e950";
+}
+.rf-facebook-s:before {
+  content: "\e951";
+}
+.rf-instagram-r:before {
+  content: "\e952";
+}
+.rf-instagram-s:before {
+  content: "\e953";
+}
+.rf-linkedin-r:before {
+  content: "\e954";
+}
+.rf-linkedin-s:before {
+  content: "\e955";
+}
+.rf-twitter-r:before {
+  content: "\e956";
+}
+.rf-twitter-s:before {
+  content: "\e957";
+}
+.rf-whatsapp-r:before {
+  content: "\e958";
+}
+.rf-whatsapp-s:before {
+  content: "\e959";
+}
+.rf-angular:before {
+  content: "\e95a";
+}
+.rf-boostrap:before {
+  content: "\e95b";
+}
+.rf-codepen:before {
+  content: "\e95c";
+}
+.rf-css3:before {
+  content: "\e95d";
+}
+.rf-firebase:before {
+  content: "\e95e";
+}
+.rf-git:before {
+  content: "\e95f";
+}
+.rf-github:before {
+  content: "\e960";
+}
+.rf-html5:before {
+  content: "\e961";
+}
+.rf-java:before {
+  content: "\e962";
+}
+.rf-javascript:before {
+  content: "\e963";
+}
+.rf-javascript-r:before {
+  content: "\e964";
+}
+.rf-mongodb:before {
+  content: "\e965";
+}
+.rf-mysql-full:before {
+  content: "\e966";
+}
+.rf-mysql-icon:before {
+  content: "\e967";
+}
+.rf-nodejs:before {
+  content: "\e968";
+}
+.rf-typescript:before {
+  content: "\e969";
+}
+.rf-typescript-r:before {
+  content: "\e96a";
+}
+.rf-vsc:before {
+  content: "\e96b";
+}
+
+.rf-10x {
+  font-size: 1em;
+}
+.rf-15x {
+  font-size: 1.5em;
+}
+.rf-20x {
+  font-size: 2em;
+}
+.rf-30x {
+  font-size: 3em;
+}
+.rf-40x {
+  font-size: 4em;
+}
+.rf-50x {
+  font-size: 5em;
+}
+.rf-60x {
+  font-size: 6em;
+}
+.rf-70x {
+  font-size: 7em;
+}
+.rf-80x {
+  font-size: 8em;
+}
+.rf-90x {
+  font-size: 9em;
+}
+.rf-100x {
+  font-size: 10em;
+}

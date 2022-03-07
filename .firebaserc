@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "portfolio-raft": {
+      "hosting": {
+        "portfolio": [
+          "portfolio-raft"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "portfolio-raft"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "spanish": {
+    "nav": {
+      "listLinks": [
+        {
+          "link": "#home",
+          "title": "inicio",
+          "icon": "home"
+        },
+        {
+          "link": "#projects",
+          "title": "proyectos",
+          "icon": "apps"
+        },
+        {
+          "link": "#about",
+          "title": "acerca",
+          "icon": "person"
+        },
+        {
+          "link": "#contact",
+          "title": "contacto",
+          "icon": "mail"
+        }
+      ],
+      "resume": {
+        "link": "assets/pdf/rf-cv-esp.pdf",
+        "title": "currículum",
+        "icon": "file_download"
+      }
+    },
+    "home": {
+      "name": "Roberto Figueira",
+      "subtitle": "Desarrollador Web Junior",
+      "description": "Soy un desarrollador web en formación. Enfocado en crear interfaces amigables y elegantes."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "projects": [
+        {
+          "id": 1,
+          "name": "randomMealApp",
+          "tools": ["Angular", "Material", "JavaScript"],
+          "description": "La aplicación obtiene la información desde una API. De manera aleatoria presenta tres resultados según la categoría elegida y muestra los detalles.",
+          "github": "https://github.com/robft88/randomMeal",
+          "link": "https://raft-random-meal.netlify.app/"
+        },
+        {
+          "id": 2,
+          "name": "Empleados - CRUD",
+          "tools": ["Angular", "Material", "Firebase"],
+          "description": "Lista de empleados donde se puede realizar CRUD. Tanto el BackEnd como el FrontEnd fueron desarrollados en Angular, usando Material para los componentes, y Firebase para la base de datos.",
+          "github": "https://github.com/robft88/employeesCRUD",
+          "link": "https://raft-employees-crud.netlify.app/"
+        },
+        {
+          "id": 3,
+          "name": "portfolio RF",
+          "tools": ["Angular", "Material", "Firebase", "HTML", "CSS"],
+          "description": "Por practicar realicé el portfolio en Angular, usando ciertos componentes de Material y la información se consulta en Firebase.",
+          "github": "https://github.com/robft88/portfolioRF",
+          "link": "https://www.robertofigueira.com"
+        },
+        {
+          "id": 4,
+          "name": "7 proyectos",
+          "tools": ["HTML", "CSS", "JavaScript"],
+          "description": "Recopilación de 7 proyectos (componentes, apps, etc.) usando Vanilla JavaScript.",
+          "github": "https://github.com/robft88/sevenProjects",
+          "link": "https://raft-seven-projects.netlify.app/"
+        }
+      ]
+    },
+    "about": {
+      "title": "Acerca",
+      "titleDescription": "Sobre mí",
+      "titleTech": "Algunas tecnologías que he usado...",
+      "titleTools": "Herramientas",
+      "description": "Mi nombre es Roberto Figueira, actualmente vivo en Madrid. Me inicié en la programación Web a principios del 2021. Mi meta y enfoque es aprender algo nuevo en esta industria cada día.",
+      "what": [
+        {
+          "icon": "rf rf-code-r rf-20x",
+          "title": "Diseño",
+          "description": "Me esmero en desarrollar interfaces y experiencias que la gente pueda disfrutar en todos los medios digitales."
+        },
+        {
+          "icon": "rf rf-squares rf-20x",
+          "title": "Desarrollo",
+          "description": "Me apasiona el diseño y desarrolo web y me interesa el desarrollo de aplicaciones móviles. A medida que crezca como desarrollador, espero escribir un código limpio y legible que otros puedan usar y aprovechar."
+        }
+      ],
+      "tech": [
+        {
+          "name": "HTML5",
+          "icon": "btn__icon rf rf-html5 rf-20x"
+        },
+        {
+          "name": "CSS3",
+          "icon": "btn__icon rf rf-css3 rf-20x"
+        },
+        {
+          "name": "JavaScript(ES6+)",
+          "icon": "btn__icon rf rf-javascript-r rf-20x"
+        },
+        {
+          "name": "Angular",
+          "icon": "btn__icon rf rf-angular rf-20x"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "btn__icon rf rf-typescript-r rf-20x"
+        },
+        {
+          "name": "Java",
+          "icon": "btn__icon rf rf-java rf-20x"
+        },
+        {
+          "name": "node.js",
+          "icon": "btn__icon rf rf-nodejs rf-20x"
+        },
+        {
+          "name": "MySQL",
+          "icon": "btn__icon rf rf-mysql-icon rf-20x"
+        },
+        {
+          "name": "Firebase",
+          "icon": "btn__icon rf rf-firebase rf-20x"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "btn__icon rf rf-mongodb rf-20x"
+        }
+      ],
+      "tools": ["Git & GitHub", "Command Line", "Chrome DevTools", "Postman"]
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Actualmente me encuentro en busca de nuevas oportunidades. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible para responderte!",
+      "button": "contacto"
+    }
+  },
+  "english": {
+    "nav": {
+      "listLinks": [
+        {
+          "link": "#home",
+          "title": "home",
+          "icon": "home"
+        },
+        {
+          "link": "#projects",
+          "title": "projects",
+          "icon": "apps"
+        },
+        {
+          "link": "#about",
+          "title": "about",
+          "icon": "person"
+        },
+        {
+          "link": "#contact",
+          "title": "contact",
+          "icon": "mail"
+        }
+      ],
+      "resume": {
+        "link": "assets/pdf/rf-cv-eng.pdf",
+        "title": "resume",
+        "icon": "file_download"
+      }
+    },
+    "home": {
+      "name": "Roberto Figueira",
+      "subtitle": "Junior Web Developer",
+      "description": "I'm a web developer in training. Focused on creating friendly and elegant interfaces."
+    },
+    "projects": {
+      "title": "Projects",
+      "projects": [
+        {
+          "id": 1,
+          "name": "randomMealApp",
+          "tools": ["Angular", "Material", "JavaScript"],
+          "description": "The App gets the information from an API. It randomly presents three results according to the chosen category and shows the details.",
+          "github": "https://github.com/robft88/randomMeal",
+          "link": "https://raft-random-meal.netlify.app/"
+        },
+        {
+          "id": 2,
+          "name": "Employees - CRUD",
+          "tools": ["Angular", "Material", "Firebase"],
+          "description": "List of employees where CRUD can be performed. Both the BackEnd and the FrontEnd were developed in Angular, using Material for the components, and Firebase for the database.",
+          "github": "https://github.com/robft88/employeesCRUD",
+          "link": "https://raft-employees-crud.netlify.app/"
+        },
+        {
+          "id": 3,
+          "name": "portfolio RF",
+          "tools": ["Angular", "Material", "Firebase", "HTML", "CSS"],
+          "description": "To practice I made the portfolio in Angular, using certain Material components and the information is consulted in Firebase.",
+          "github": "https://github.com/robft88/portfolioRF",
+          "link": "https://www.robertofigueira.com"
+        },
+        {
+          "id": 4,
+          "name": "7 projects",
+          "tools": ["HTML", "CSS", "JavaScript"],
+          "description": "Compilation of 7 projects (components, apps, etc.) using Vanilla JavaScript.",
+          "github": "https://github.com/robft88/sevenProjects",
+          "link": "https://raft-seven-projects.netlify.app/"
+        }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "titleDescription": "About me",
+      "titleTech": "Some tech I've worked with..",
+      "titleTools": "Tools",
+      "description": "My name is Roberto Figueira, I currently live in Madrid. I started in web programming at the beginning of 2021. My goal and focus is to learn something new in this industry every day.",
+      "what": [
+        {
+          "icon": "rf rf-code-r rf-20x",
+          "title": "Design",
+          "description": "I strive to develop interfaces and experiences that people can enjoy across all digital media."
+        },
+        {
+          "icon": "rf rf-squares rf-20x",
+          "title": "Development",
+          "description": "I am passionate about web design and development and I am interested in developing mobile applications. As I grow as a developer, I hope to write clean and readable code that others can use and build on."
+        }
+      ],
+      "tech": [
+        {
+          "name": "HTML5",
+          "icon": "btn__icon rf rf-html5 rf-20x"
+        },
+        {
+          "name": "CSS3",
+          "icon": "btn__icon rf rf-css3 rf-20x"
+        },
+        {
+          "name": "JavaScript(ES6+)",
+          "icon": "btn__icon rf rf-javascript-r rf-20x"
+        },
+        {
+          "name": "Angular",
+          "icon": "btn__icon rf rf-angular rf-20x"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "btn__icon rf rf-typescript-r rf-20x"
+        },
+        {
+          "name": "Java",
+          "icon": "btn__icon rf rf-java rf-20x"
+        },
+        {
+          "name": "node.js",
+          "icon": "btn__icon rf rf-nodejs rf-20x"
+        },
+        {
+          "name": "MySQL",
+          "icon": "btn__icon rf rf-mysql-icon rf-20x"
+        },
+        {
+          "name": "Firebase",
+          "icon": "btn__icon rf rf-firebase rf-20x"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "btn__icon rf rf-mongodb rf-20x"
+        }
+      ],
+      "tools": ["Git & GitHub", "Command Line", "Chrome DevTools", "Postman"]
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "description": "I'm currently loking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+      "button": "contact"
+    }
+  }
+}
